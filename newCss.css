@@ -1,0 +1,140 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+body,
+html,
+h1 {
+margin: 0;
+padding: 0;
+
+}
+h1 {
+color: black;
+font-size: 4rem;
+text-align: center;
+}
+h3 {
+color: black;
+font-size: 1rem;
+text-align: center;
+}
+section {
+height: 100vh;
+}
+body{
+  background:url("images/apartments.png");
+  background-size:100% 25%;
+  background-repeat: no-repeat;
+  font-family:Montserrat;
+}
+.sampText{
+  margin-top: -50px;
+}
+.box {
+  width: 300px;
+  margin: 50px auto;
+  background: #ffffff;
+  padding: 40px;
+  text-align: center;
+  font-weight: 900;
+  color: #000000;
+  font-family: arial;
+  position:relative;
+}
+.sb3:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid #ffffff;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #ffffff;
+  border-bottom: 10px solid transparent;
+  left: 19px;
+  bottom: -19px;
+}
+.space{
+  margin-top: 300px;
+}
+
+.nav{
+  font-size: 20px;
+}
+.navbar-nav{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.extra{
+padding-top: 5%;}
+.mybox{
+  padding: 2%;
+  background-color: #2D6768;
+  margin: auto;
+  width: 48%;
+  box-shadow: 10px 5px 5px grey;
+}
+.roundedEdges{
+  margin-left: 10%;
+  border-radius: 50%;
+
+}
+.navbar.scrolled {
+  background-color: rgba(255,255,255, 0.4); !important;
+  transition: background-color 200ms linear;
+}
+.empty{
+  top: 220px;
+}
+.tag {
+}
+
+.tag {
+opacity: 0;
+transform: translate(0, 10vh);
+transition: all 2s;
+}
+#header h1{
+    margin:0px;
+}
+.tag.visible {
+opacity: 1;
+transform: translate(0, 0);
+}
+
+.tag2 {
+}
+
+.tag2 {
+opacity: 0;
+transform: translate(20vh,0);
+transition: all 3s;
+}
+
+.tag2.visible {
+opacity: 1;
+transform: translate(0, 0);
+}
+.tag3 {
+}
+
+.tag3 {
+opacity: 0;
+transform: translate(-20vh,0);
+transition: all 3s;
+}
+
+.tag3.visible {
+opacity: 1;
+transform: translate(0, 0);
+}
