@@ -17,7 +17,6 @@ html,
 h1 {
 margin: 0;
 padding: 0;
-
 }
 h1 {
 color: black;
@@ -29,15 +28,36 @@ color: black;
 font-size: 1rem;
 text-align: center;
 }
+h5 {
+color: black;
+font-size: 1rem;
+text-align: center;
+}
+button{
+text-align: center;
+background-color: #CEE2E1;
+}
+.lightcolors{
+      color:#67A8A4;
+}
+.darkcolors{
+      color:#01423E;
+}
+.myTitle{
+  color:white;
+  font-size: 2.5rem;
+}
 section {
 height: 100vh;
 }
 body{
   background:url("images/apartments.png");
-  background-size:100% 25%;
+  background-size:100% 34%;
   background-repeat: no-repeat;
   font-family:Montserrat;
 }
+
+
 .sampText{
   margin-top: -50px;
 }
@@ -52,6 +72,15 @@ body{
   font-family: arial;
   position:relative;
 }
+.newBox{
+  background-color: #2D6768;
+  padding: 2px, 2px, 2px, 2px;
+}
+.newBox2{
+  background-color: #2D6768;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
 .sb3:before {
   content: "";
   width: 0px;
@@ -65,9 +94,8 @@ body{
   bottom: -19px;
 }
 .space{
-  margin-top: 300px;
+  margin-top: 100px;
 }
-
 .nav{
   font-size: 20px;
 }
@@ -76,7 +104,8 @@ body{
   margin-right: 100px;
 }
 .extra{
-padding-top: 5%;}
+padding-top: 5%;
+}
 .mybox{
   padding: 2%;
   background-color: #2D6768;
@@ -87,7 +116,6 @@ padding-top: 5%;}
 .roundedEdges{
   margin-left: 10%;
   border-radius: 50%;
-
 }
 .navbar.scrolled {
   background-color: rgba(255,255,255, 0.4); !important;
@@ -98,7 +126,6 @@ padding-top: 5%;}
 }
 .tag {
 }
-
 .tag {
 opacity: 0;
 transform: translate(0, 10vh);
@@ -111,29 +138,24 @@ transition: all 2s;
 opacity: 1;
 transform: translate(0, 0);
 }
-
 .tag2 {
 }
-
 .tag2 {
 opacity: 0;
 transform: translate(20vh,0);
 transition: all 3s;
 }
-
 .tag2.visible {
 opacity: 1;
 transform: translate(0, 0);
 }
 .tag3 {
 }
-
 .tag3 {
 opacity: 0;
 transform: translate(-20vh,0);
-transition: all 3s;
+transition: all 4s;
 }
-
 .tag3.visible {
 opacity: 1;
 transform: translate(0, 0);

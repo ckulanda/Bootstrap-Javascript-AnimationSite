@@ -1,0 +1,89 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+body,
+html,
+h1 {
+margin: 0;
+padding: 0;
+}
+h1 {
+color: white;
+font-size: 4rem;
+text-align: left;
+}
+h3 {
+color: #2D6768;
+font-size: 2rem;
+
+}
+.center{
+  text-align: center;
+}
+.larger{
+  font-size: 25px;
+}
+.whiteSpace{
+  padding-top: 100px;
+}
+h5 {
+color: black;
+font-size: 1rem;
+text-align: center;
+}
+button{
+text-align: center;
+background-color: #CEE2E1;
+}
+.lightcolors{
+      color:#67A8A4;
+}
+.darkcolors{
+      color:#01423E;
+}
+.myTitle{
+  color:white;
+  font-size: 2.5rem;
+}
+section {
+height: 100vh;
+}
+body{
+  background:url("images/wave2.png");
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  font-family:Montserrat;
+}
+
+.row {
+    margin-left: -50;
+    margin-right: -50;
+}
+.paragraph{
+  padding-top:100px;
+  text-align:center;
+  vertical-align: middle;
+}
+
+.nav{
+  font-size: 20px;
+}
+.navbar-nav{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.navbar.scrolled {
+  background-color: rgba(255,255,255, 0.4); !important;
+  transition: background-color 200ms linear;
+}
